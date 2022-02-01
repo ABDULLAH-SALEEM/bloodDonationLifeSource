@@ -1,0 +1,54 @@
+.editButton{
+    margin: auto;
+    margin-top: 10px;
+    height: 40px;
+    /* margin: auto; */
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+    /* border: 1px solid #db1628; */
+    background-color:#d8313f ;
+    /* border-radius: 15px;  */
+    cursor: pointer; 
+    width: 85%;
+    position: relative;
+    top: 20px;
+}
+
+.donateBloodForm >.nameInput , .donateBloodForm >.emailInput, .donateBloodForm >.phoneInput, .donateBloodForm >.nicInput, .donateBloodForm >.bloodInput, .donateBloodForm >.illnessInput, .donateBloodForm >.weightInput, .donateBloodForm >.cityInput{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.bloodDonationSibmitBut{
+    background-color: #db1628;
+    color: #f0f2f5;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    font-size: x-large;
+    width: 100%;
+    outline: none;
+    margin-top: 10px;
+}
+.donHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.donHeader > .MuiSvgIcon-root{
+    color: #db1628;
+    transform: scale(1.5);
+}
+
+.donHeading{
+    font-size: large;
+    color: #db1628;
+    font-weight: 600;
+}
+

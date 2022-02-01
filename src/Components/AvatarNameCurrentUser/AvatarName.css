@@ -1,0 +1,20 @@
+.nameAvatar{
+    display: flex;
+    align-items: center;
+    padding:10px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.nameAvatar > p{
+    margin-left: 20px;
+    font-weight: 600;
+    color: white;
+    font-size: larger;
+}
+
+.currentAvatarDp{
+    transform: scale(1.5);
+    margin-left: 10px;
+    /* margin-bottom: 10px; */
+}
+

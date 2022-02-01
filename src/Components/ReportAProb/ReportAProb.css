@@ -1,0 +1,42 @@
+.reportForm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    /* margin: 15px; */
+}
+
+.naamee, .reportEmail{
+    width: 90%;
+
+}
+
+.des{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 90%;
+    height: 80px;
+    border: 2px solid #b60000;
+}
+
+.reportForm > button{
+    width: 90%;
+    border-radius: 5px;
+}
+
+.reportForm > .naamee{
+    margin-bottom: 30px;
+}
+
+.reportForm > .reportEmail{
+    margin-bottom: 30px;
+}
+
+div > .reportHead{
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    color: #b60000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

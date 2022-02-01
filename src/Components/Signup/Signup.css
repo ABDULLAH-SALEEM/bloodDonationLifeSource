@@ -1,0 +1,76 @@
+.signupForm{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+}
+
+.signupFormDiv{
+    width: 30%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    margin-top: 0px;
+}
+
+.signupForm > .email{
+    margin-bottom: 15px;
+}
+
+
+.logoSignup{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.signupWraper{
+    background-color: #f0f2f5;
+    height: 100vh;
+}
+
+.Button-Signup{
+    background-color: #db1628;
+    color: #f0f2f5;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    font-size: x-large;
+}
+
+
+
+.backToSignIn{
+    text-decoration: none;
+    width: 100%;
+    background-color: #ffffff;
+    color: #db1628;
+    border: none;
+    cursor: pointer;
+    font-size: small;
+    margin-top: 5px;
+}
+
+.signupForm > .password{
+    margin-bottom: 15px;
+    
+}
+
+.signupForm > .cnfPassword{
+    margin-bottom: 15px;
+}
+
+.signupForm >.fullName{
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px){
+    .signupFormDiv{
+        width: 90%;
+    }
+    .logoSignup{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,85 @@
+#check{
+    display: none;
+}
+.toggle-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    z-index: 10;
+    margin-right: 25px;
+    /* margin-left: 8px; */
+}
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.navbarComponents{
+    position: fixed;
+    margin-top: 14px;
+    left: -100%;
+    transition: all .5s;
+    background-color: white;
+    width: 70%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+#check:checked ~ .navbarComponents{
+    left: 0;
+}
+.optDiv{
+    padding-bottom: 120px; 
+}
+.avatar{
+    margin-bottom: 30px;
+    /* margin-top: 30px; */
+    transform: scale(1.5);
+    margin-left: 10px;
+}
+.divider{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding-top: 0.2px;
+}
+.optDiv > p{
+    color: #b60000;
+    /* margin-top: 15px; */
+    font-weight: 600;
+    font-family: sans-serif;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid #b60000;
+}
+.varified, .backToHome, .varifiedDonors{
+    text-decoration: none;
+    color: #b60000;
+}
+.navAvatar{
+    background-color: #b60000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+.currnetN{
+    color: white;
+    margin-top: 30px;
+    /* margin-bottom: 15px; */
+}
+
+.prof{
+    text-decoration: underline;
+    color: white;
+}

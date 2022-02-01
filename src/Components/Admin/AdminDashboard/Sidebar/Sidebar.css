@@ -1,0 +1,22 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    position: fixed;
+    margin-top: 110px;
+    /* overflow-y: scroll;     */
+}
+
+.sidebar > div{
+    padding: 15px;
+    border-bottom: 2px solid #db1628;
+    color: #b60000;
+    font-weight: 600;
+    cursor: pointer;
+}
+.donorApp{
+    color: #b60000;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}

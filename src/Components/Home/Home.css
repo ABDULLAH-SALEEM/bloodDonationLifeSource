@@ -1,0 +1,89 @@
+.home{
+    background-color: #f5f0f0;
+    height: 100vh;
+    /* padding-top: 95px; */
+    overflow-y: hidden;
+}
+
+.footer{
+    display: flex ;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 5px 10px 5px 10px;
+    width: 95%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #db1628;
+    position: fixed;
+    z-index: 100;
+}
+.body{
+    margin: auto;
+    margin-top: 70px;
+    width: 90%;
+    background-color: #b60000;
+}
+.bodySecOne{
+    /* margin-top: 70px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   color: white;
+    padding-top: 10px;
+    height: 70px;
+}
+.bodyAvat{
+    transform: scale(1.5);
+    margin-right: 20px;
+}
+.footerOpt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footerOpt > div{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 5px 5px 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footerOpt > div > .MuiSvgIcon-root{
+    transform: scale(1.5);
+    color: #b60000;
+}
+
+.homeOr{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    color: #b60000;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.banner{
+    width: 100%;
+    /* border: 1px solid; */
+    position: relative;
+    top: 50px;
+}
+
+.banner > img{
+    width: 100%;
+}
+
+.homeIco> .MuiSvgIcon-root{
+    transform: scale(1.5);
+    color: #b60000;
+}

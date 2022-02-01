@@ -1,0 +1,118 @@
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+}
+
+.loginFormDiv{
+    width: 30%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+}
+
+.loginForm > .email{
+    margin-bottom: 20px;
+}
+
+.loginForm > .password{
+    margin-bottom: 20px;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    margin-bottom: 20px;
+}
+.loginWraper{
+    background-color: #f0f2f5;
+    height: 100vh;
+}
+
+.Button{
+    background-color: #db1628;
+    color: #f0f2f5;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    font-size: x-large;
+}
+
+.notReg{
+    background-color: #ffffff;
+    color: #db1628;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    font-size: small;
+}
+
+.jumpToLogin{
+    text-decoration: none;
+    width: 100%;
+    background-color: #ffffff;
+    color: #db1628;
+    border: none;
+    cursor: pointer;
+    font-size: small;
+    margin-top: 5px;
+}
+
+.Google{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 40px;
+    color: #db1628;
+    border: 1px solid #b60000;
+    justify-content: space-evenly;
+    background-color: white;
+    font-size: large;
+}
+.Google:hover{
+    background-color: #db1628;
+    color: white;
+}
+.or{
+    font-size: large;
+    text-align: center;
+    color: #db1628 ;
+    font-weight: 600;
+    margin: 5px 0 5px 0;
+}
+.Google > img{
+    width: 25px;
+}
+
+@media (max-width: 768px){
+    .loginFormDiv{
+        width: 90%;
+    }
+    .logo{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+.name{
+    text-align: center;
+    color: #b60000;
+    font-weight: 600;
+    font-size: x-large;
+    padding-top: 10px;
+
+}
+
+.tagline{
+    text-align: center;
+    color: #b60000;
+    font-weight: 600;
+    font-size: small;
+}
+
+.err{
+    color: #b60000;
+    padding: 5px;
+}

@@ -1,0 +1,43 @@
+.donorAppTab{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+}
+.donorAppTabSideBar{
+    width: 20%;
+}
+.don{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    border-bottom: 2px solid #db1628;
+    color: #b60000;
+   
+}
+.donorHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    background-color: #b60000;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+    /* margin-top: 5px; */
+}
+.head{
+    padding: 15px;
+    color: #b60000;
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+}
+.donorAppTabInfo{
+     width: 75%;
+     margin-left: 10px;
+     /* border: 1px solid; */
+}

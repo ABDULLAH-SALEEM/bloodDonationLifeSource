@@ -1,0 +1,37 @@
+.donationStatus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b60000;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.donationCrad{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.cancelIcon{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.cancelIcon> .MuiSvgIcon-root{
+    color: #db1628;
+    transform: scale(1.2);
+}
+
+h3{
+    text-align: center;
+    color: #b60000;
+    font-size: x-large;
+}
+
+.noData{
+    text-align: center;
+    margin-top: 10px;
+}

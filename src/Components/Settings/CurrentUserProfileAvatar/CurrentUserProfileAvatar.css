@@ -1,0 +1,27 @@
+.dpAvatar{
+    transform: scale(2);
+    margin-top: 30px;
+}
+
+.dpp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.cameraIcon{
+    position: absolute;
+    top: 116px;
+    left: 214px;
+}
+
+.cameraIcon > .MuiSvgIcon-root{
+    transform: scale(1.3);
+    color: #b60000;
+}
+
+#profileDp{
+    display: none;
+}

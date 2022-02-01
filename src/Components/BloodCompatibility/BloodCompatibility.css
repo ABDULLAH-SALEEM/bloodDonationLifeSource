@@ -1,0 +1,17 @@
+.bloodCom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin: 10px;
+}
+.bloodCom > img{
+    width: 100%;
+}
+
+.bloodHead{
+    text-align: center;
+    color: #b60000;
+    margin-bottom: 50px;
+    margin-top: 90px;
+}

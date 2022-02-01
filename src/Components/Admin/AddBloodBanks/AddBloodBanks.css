@@ -1,0 +1,12 @@
+.addBankForm{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 47px;
+    margin-top: 10px;
+    /* background-color: #b60000; */
+}
+.addBankForm > button{
+    width: 100px;
+    border-radius: 5px;
+}

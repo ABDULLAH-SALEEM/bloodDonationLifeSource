@@ -1,0 +1,40 @@
+.recipientFullDetails{
+    margin-left: 20px;
+}
+
+.approve{
+    margin-right: 10px;
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #205c20;
+    color: #205c20;
+    /* font-size: large; */
+    font-weight: 600;
+}
+.approve:hover {
+    background-color:#205c20 ;
+    color: white;
+}
+.deny{
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px;
+    /* font-size: large; */
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #b60000;
+    color: #b60000;
+    margin-bottom: 15px;
+}
+.deny:hover{
+    background-color: #b60000;
+    color: white;
+}

@@ -1,0 +1,19 @@
+.accSet{
+    text-align: center;
+    color: #b60000;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.nameSet{
+    display: flex;
+    align-items: center;
+}
+
+.set{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+}
